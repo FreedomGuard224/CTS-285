@@ -30,11 +30,11 @@ def guessing():
             choice = int(input("Pick a number: "))
 
             
-        if count == 1:
-            print("Wow, first try. Excellent!")
-        elif count > 1:
-            print("You have guessed right in",count,"tries.")
-        print("")
+    if count == 1:
+        print("Wow, first try. Excellent!")
+    elif count > 1:
+        print("You have guessed right in",count,"tries.")
+    print("")
 
     option = input("Do you wish to go again? ")
     option = option.lower()
